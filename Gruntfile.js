@@ -28,6 +28,21 @@ module.exports = function(grunt) {
             },
         },
 
+		// bundle JS
+        uglify: {
+			options: {
+				compress: true,
+				sourceMap: true,
+
+			},
+			applib: {
+				src: [
+					'assets/js/cig/*'
+				],
+				dest: 'dist/assets/scripts/cig-main.js'
+			}
+        },
+
         watch: {
             less: {
                 files: ['<%= dirs.less %>/*.less'],
@@ -58,4 +73,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks( 'grunt-wp-i18n' );
     grunt.loadNpmTasks( 'grunt-contrib-less' );
     grunt.loadNpmTasks( 'grunt-contrib-watch' );
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+
+	// Default task.
+	grunt.registerTask('default', ['uglify', 'less']);
 };

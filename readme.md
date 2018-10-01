@@ -12,7 +12,7 @@ demo: [docs.wedevs.com](http://docs.wedevs.com)
 
 2. Log in to your dashboard and navigate to `Appearance → Themes`. Click the **Activate** button on the weDocs theme.
 
-##Simple Installation
+## Simple Installation
 
 1. **[Download the .zip file from here](https://github.com/tareq1988/wedocs/archive/develop.zip)***.
 
@@ -20,7 +20,7 @@ demo: [docs.wedevs.com](http://docs.wedevs.com)
 
 >**If you do not have weDocs plugin installed, go to `Plugins → Add New` and Search for `wedocs` and install.**
 
-##Customize
+## Customize
 
 The theme only has a feature to use a custom image as a logo.
 Navigate to `Appearance → Customizer`. Then you will find the option to add a custom logo image.
@@ -28,6 +28,10 @@ Navigate to `Appearance → Customizer`. Then you will find the option to add a 
 If you want to add more features, please fork and help 🙂.
 
 Of course, you can customize the style and the source code as you like. Pull requests are always exciting!
+
+## Development
+- /assets contains all CSS and JS files that will be bundled
+- Bundle CSS and JS by running `grunt` (this require the grunt-cli -- `npm install -g grunt-cli`)
 
 ### Built with
 

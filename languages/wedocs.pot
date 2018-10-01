@@ -1,17 +1,17 @@
-# Copyright (C) 2015 Tareq hasan
+# Copyright (C) 2018 Tareq hasan
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: weDocs 0.1\n"
 "Report-Msgid-Bugs-To: https://github.com/tareq1988/wedocs/issues\n"
-"POT-Creation-Date: 2015-02-07 20:16:43+00:00\n"
+"POT-Creation-Date: 2018-09-30 23:33:44+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
-"X-Generator: grunt-wp-i18n 0.5.0\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
@@ -29,11 +29,11 @@ msgstr ""
 msgid "an out-of-date link"
 msgstr ""
 
-#: archive.php:30 search.php:5
+#: archive.php:30 search.php:6
 msgid "Documents"
 msgstr ""
 
-#: archive.php:49 search.php:17
+#: archive.php:49 search.php:18
 msgid "Nothing found!"
 msgstr ""
 
@@ -44,51 +44,104 @@ msgid ""
 "experience."
 msgstr ""
 
-#: functions.php:30
+#: functions.php:31
 msgid "Sorry, you've already recorded your feedback!"
 msgstr ""
 
-#: functions.php:45
+#: functions.php:46
 msgid "Thanks for your feedback!"
 msgstr ""
 
-#: functions.php:64
+#: functions.php:59 functions.php:60
+msgid "Docs"
+msgstr ""
+
+#: functions.php:61
+msgid "Parent Doc:"
+msgstr ""
+
+#: functions.php:62 templates/header-top-navbar.php:47
+#: templates/header-top-navbar.php:51 templates/header-top-navbar.php:67
 msgid "All Docs"
+msgstr ""
+
+#: functions.php:63
+msgid "Add New Doc"
+msgstr ""
+
+#: functions.php:64
+msgid "Add New"
+msgstr ""
+
+#: functions.php:65
+msgid "New Doc"
+msgstr ""
+
+#: functions.php:66
+msgid "Edit Doc"
+msgstr ""
+
+#: functions.php:67
+msgid "Update Doc"
+msgstr ""
+
+#: functions.php:68
+msgid "View Doc"
+msgstr ""
+
+#: functions.php:69
+msgid "Search Docs"
+msgstr ""
+
+#: functions.php:70
+msgid "Not found"
+msgstr ""
+
+#: functions.php:71
+msgid "Not found in Trash"
+msgstr ""
+
+#: functions.php:74
+msgid "Doc"
+msgstr ""
+
+#: functions.php:75
+msgid "Post type for Documentation "
 msgstr ""
 
 #: lib/cleanup.php:193
 msgid "Read more &rarr;"
 msgstr ""
 
-#: lib/custom.php:11
+#: lib/custom.php:12
 msgid "Home"
 msgstr ""
 
-#: lib/custom.php:33
+#: lib/custom.php:34
 msgid "Search results for"
 msgstr ""
 
-#: lib/custom.php:91
+#: lib/custom.php:109
 msgid "Posts tagged"
 msgstr ""
 
-#: lib/custom.php:96
+#: lib/custom.php:114
 msgid "Articles posted by"
 msgstr ""
 
-#: lib/custom.php:99
+#: lib/custom.php:117
 msgid "Error 404"
 msgstr ""
 
-#: lib/custom.php:104
+#: lib/custom.php:122
 msgid "Page"
 msgstr ""
 
-#: lib/custom.php:117
+#: lib/custom.php:137
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: lib/custom.php:119
+#: lib/custom.php:139
 msgid "Theme: %1$s by %2$s"
 msgstr ""
 
@@ -156,6 +209,10 @@ msgstr ""
 msgid "Not Found"
 msgstr ""
 
+#: lib/walker-docs.php:24
+msgid "Introduction"
+msgstr ""
+
 #: lib/widgets.php:8
 msgid "Primary"
 msgstr ""
@@ -164,15 +221,11 @@ msgstr ""
 msgid "Footer 1"
 msgstr ""
 
-#: lib/walker-docs.php:22
-msgid "Introduction"
-msgstr ""
-
-#: search.php:26
+#: search.php:27
 msgid "&larr; Older posts"
 msgstr ""
 
-#: search.php:27
+#: search.php:28
 msgid "Newer posts &rarr;"
 msgstr ""
 
@@ -258,17 +311,17 @@ msgstr ""
 msgid "Was this article helpful to you?"
 msgstr ""
 
-#: templates/content-feedback.php:8
+#: templates/content-feedback.php:11
 msgid "%d person found this useful"
 msgid_plural "%d persons found this useful"
 msgstr[0] ""
 msgstr[1] ""
 
-#: templates/content-feedback.php:8 templates/content-feedback.php:9
+#: templates/content-feedback.php:11 templates/content-feedback.php:12
 msgid "No votes yet"
 msgstr ""
 
-#: templates/content-feedback.php:9
+#: templates/content-feedback.php:12
 msgid "%d person found this not useful"
 msgid_plural "%d persons found this not useful"
 msgstr[0] ""
@@ -282,8 +335,24 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: templates/content-single.php:23
+#: templates/content-single.php:12
+msgid "Print this article"
+msgstr ""
+
+#: templates/content-single.php:25
 msgid "Articles"
+msgstr ""
+
+#: templates/content-single.php:38
+msgid "Still stuck?"
+msgstr ""
+
+#: templates/content-single.php:38
+msgid "How can we help?"
+msgstr ""
+
+#: templates/content-single.php:48
+msgid "Updated on %s"
 msgstr ""
 
 #: templates/entry-meta.php:2
@@ -294,17 +363,13 @@ msgstr ""
 msgid "Toggle navigation"
 msgstr ""
 
-#: templates/header-top-navbar.php:29 templates/header-top-navbar.php:35
-#: templates/searchform.php:3 templates/searchform.php:6
-msgid "Search"
-msgstr ""
-
-#: templates/header-top-navbar.php:30 templates/searchform.php:4
+#: templates/header-top-navbar.php:31 templates/searchform.php:4
 msgid "Search for:"
 msgstr ""
 
-#: templates/header-top-navbar.php:34
-msgid "All Documents"
+#: templates/header-top-navbar.php:32 templates/header-top-navbar.php:70
+#: templates/searchform.php:3 templates/searchform.php:6
+msgid "Search"
 msgstr ""
 
 #. Theme Name of the plugin/theme
@@ -325,4 +390,22 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://tareq.wedevs.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Page Header"
+msgstr ""
+
+#: functions.php:57
+msgctxt "Post Type General Name"
+msgid "Docs"
+msgstr ""
+
+#: functions.php:58
+msgctxt "Post Type Singular Name"
+msgid "Docs"
 msgstr ""
